@@ -11,14 +11,14 @@
 - `master` 分支：主分支，用于发布稳定版本；
 - `lihan3238` 分支：`lihan3238` 的开发分支；
 - `DaleChu` 分支：`DaleChu` 的开发分支；
-- `dracuspicy` 分支：`dracuspicy` 的开发分支；
+- `Dracuspicy` 分支：`Dracuspicy` 的开发分支；
 - `DoubleJ` 分支：`DoubleJ` 的开发分支；
 
 ### 合作开发流程
 
 1. 在 GitHub 上创建 [项目主仓库](https://github.com/lihan3238/Network-Security-Comprehensive-Practice), 并将小组成员加入仓库协作；
 
-2. 小组成员创建自己的开发分支，分别为 `lihan3238`、`DaleChu`、`dracuspicy`、`DoubleJ`，在自己的开发分支上进行开发；
+2. 小组成员创建自己的开发分支，分别为 `lihan3238`、`DaleChu`、`Dracuspicy`、`DoubleJ`，在自己的开发分支上进行开发；
 
 3. 在自己的分支上完成开发后，将自己的分支通过 `Pull Reaquest` 合并到 `master` 分支；
 
