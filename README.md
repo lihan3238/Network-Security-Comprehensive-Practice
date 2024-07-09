@@ -27,12 +27,12 @@
 - 通过 Docker Compose 部署靶标环境
 - 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的漏洞复现
 - 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的靶场搭建
-- 外网渗透测试：信息收集、端口扫描、服务识别、漏洞扫描、漏洞存在性验证、漏- 洞利用
+- 外网渗透测试：信息收集、端口扫描、服务识别、漏洞扫描、漏洞存在性验证、漏洞利用
 - Metasploit 及其他开源自动化攻击框架的使用
-- 内网渗透测试：信息收集、端口扫描、服务识别、网络拓扑发现、漏洞扫描、漏洞- 存在性验证、漏洞利用
+- 内网渗透测试：信息收集、端口扫描、服务识别、网络拓扑发现、漏洞扫描、漏洞存在性验证、漏洞利用
 - 使用 Git 进行团队协作
 - 搜索引擎的使用
-- AI Copilot 的使用
+- AI 助手如 GitHub Copilot, ChatGPT 等的使用
 - 自动化攻击程序的编写
 - 入侵检测系统的安装与使用
 - 入侵取证
