@@ -64,4 +64,21 @@
 - 请在 `Pull Request` 合并通过后，切换到 `main` 分支 `git pull` 拉取更新到本，之后 **切换到自己的分支下** 及时使用 `git rebase main` 命令将 `main` 分支的最新代码合并到自己的开发分支，并 `git push` 到远程仓库；
 - `git commit message` 参考 ![git commit 指引](https://lihan3238.github.io/p/git_commit_info/)
 
+## 问题
+
+### 1. 切换到 `main` 分支进行 `git pull` 更新操作时报错
+
+```bash
+error: cannot lock ref 'refs/remotes/origin/Dalechu': is at 4c00ca1858ea4faddfe0955357e4b9204d75604b but expected be1497b8165e857bc659162466e822dc3de8ae08
+ ! be1497b..6e4fb37  Dalechu    -> origin/Dalechu  (unable to update local ref)
+   5d4fd1c..40f53b8  doubleJ    -> origin/doubleJ
+```
+
+- 原因：远程仓库的 `Dalechu` 分支与本地仓库的 `Dalechu` 分支不一致；具体原因不明。
+- 解决：删除本地仓库的 `Dalechu` 分支，重新 `git pull` 拉取远程仓库的 `Dalechu` 分支。
+
+```bash
+git update-ref -d refs/remotes/origin/Dalechu
+git fetch origin
+```
 
