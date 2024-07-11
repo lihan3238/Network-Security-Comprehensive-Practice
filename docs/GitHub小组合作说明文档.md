@@ -118,3 +118,9 @@ git remote set-url --add origin https://git.cuc.edu.cn/ccs/2024-summer-cp/Networ
 
 ```
 
+### 3. [项目主仓库(gitlab)]( https://git.cuc.edu.cn/ccs/2024-summer-cp/Network-Security-Comprehensive-Practice) 中，commit记录中同一个用户有多个不同的用户名
+
+- 原因：在 [项目工作仓库(GitHub)](https://github.com/lihan3238/Network-Security-Comprehensive-Practice)，进行开发时，存在两种不同的 `git config` 配置，一个是在本地工作目录下配置的个人邮箱和用户名-1，一个是在 GitHub 上进行 Pull Request 时使用的邮箱和用户名-2。将项目同步到 [项目主仓库(gitlab)]( https://git.cuc.edu.cn/ccs/2024-summer-cp/Network-Security-Comprehensive-Practice) 后，个人邮箱和用户名-1会被识别为 Gitlab 用户，显示为我的 Gitlab 用户名，而邮箱和用户名-2因为 Github 上默认使用匿名邮箱 `xxx@users.noreply.github.com` 所以被 Gitlab 识别为另一个用户，因此在 commit 记录中会出现两个不同的用户名。
+- 解决：
+- - 方法一：在 Github 的用户配置界面，取消勾选 `Keep my email addresses private`，并设置和本地工作目录下的一致的邮箱；
+- - 方法二：在本地工作目录下，使用 `git config --global user.email "xxx@users.noreply.github.com" ` 设置和 Github 上一致的邮箱，使用 `git config --global user.name "lihan3238"` 设置和 Github 上一致的用户名。
