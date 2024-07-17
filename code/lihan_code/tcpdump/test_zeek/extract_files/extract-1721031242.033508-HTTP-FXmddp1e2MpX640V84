@@ -1,0 +1,13 @@
+
+
+
+<html>
+<head>
+    <title>S2-059 demo</title>
+
+</head>
+<body>
+<a id="" href="/sdk.action;jsessionid=node01n9b4dwcxc0b6rr2062xg1n24.node0">your input id: 
+    <br>has ben evaluated again in id attribute</a>
+</body>
+</html>
