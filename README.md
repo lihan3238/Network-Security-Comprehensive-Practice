@@ -1,28 +1,29 @@
 # 网络安全综合实践 Network-Security-Comprehensive-Practice
 
+
+
 ## 实践任务-基础团队实践训练
 
-### 实践任务
+### 实践内容
 
-团队分工跟练复现完成 [网络安全(2021) 综合实验](https://www.bilibili.com/video/BV1p3411x7da/)
+团队分工跟练复现完成 [网络安全(2021) 综合实验](https://www.bilibili.com/video/BV1p3411x7da/) . 最终实验报告见于 : [docs/网络安全综合实践小组报告.md](docs/网络安全综合实践小组报告.md)
 
 ### 团队角色
 
-| 团队成员 | 角色 | 任务 |
-| :---: | :---: | :---: |
-| lihan3238 | 红队 | 漏洞存在性验证、漏洞利用 |
-| DaleChu | 蓝队-威胁监测 | 持续监测漏洞利用、威胁识别与报告 |
-| DaleChu | 蓝队-威胁处置 | 缓解漏洞利用 |
-| lihan3238 | 蓝队-威胁处置 | 漏洞修复（源代码级别、二进制级别）|
+| 团队成员 | 角色 | 任务 | 实验记录 |
+| :---: | :---: | :---: | ----- |
+| lihan3238 | 红队 | 漏洞存在性验证、漏洞利用 | [lihan3238 个人开发日志](0_lihan3238/个人开发日志.md) |
+| DaleChu | 蓝队-威胁监测 | 持续监测漏洞利用、威胁识别与报告 | [DaleChu 个人开发日志](1_DaleChu/个人开发日志.md) |
+| Dracuspicy | 蓝队-威胁处置 | 缓解漏洞利用 | [Dracuspicy 个人实验日志](2_dracuspicy/个人实验日志.md) |
+| doubleJ | 蓝队-威胁处置 | 漏洞修复（源代码级别、二进制级别）| [doubleJ 个人实验日志](3_DoubleJ/个人实验日志.md) |
 
 ### 实践要求
 
 #### 知识点与技能点
 
-- 虚拟机软件（推荐 Virutalbox）的安装和基本使用
-- Ubuntu 系统的使用
+- 虚拟机平台的安装和基本使用
 - Kali Linux 系统的使用
-- 在不同 Linux 发行版里的 Docker 容器的安装和基本使用
+- Linux 发行版里的 Docker 容器的安装和基本使用
 - 通过 Dockerfile 构建靶标镜像
 - 通过 Docker Compose 部署靶标环境
 - 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的漏洞复现
@@ -68,7 +69,7 @@
 - 项目仓库目录结构：
 
 ```
-├── 0_lihan3238 # 存放 `个人的实践心得体会`
+├── 0_lihan3238 
 │   ├── 个人开发日志.md
 │   └── README.md
 ├── 1_DaleChu
