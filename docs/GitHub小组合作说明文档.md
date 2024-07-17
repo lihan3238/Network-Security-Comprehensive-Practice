@@ -42,7 +42,7 @@
 
 ![create_branch](../img/co_doc/create_branch.png)
 
-3. c1: `小组成员A` 在自己本地的开发分支 `chap0x0A` 上完成开发，并 `git push ` 更新到远程仓库的 `chap0x0A` ,之后在 GitHub 上发起 `Pull Request` ；
+3. c1: `小组成员A` 在自己本地的分支上完成开发，并 `git push ` 更新到远程仓库的对应分支,之后在 GitHub 上发起 `Pull Request` ；
 4. c2: `小组成员B` 在自己本地的开发分支 `chap0x0B` 上完成开发，并 `git push` 更新到远程仓库的 `chap0x0B` ,之后在 GitHub 上发起 `Pull Request` ；
 
 ![pull_request_1](../img/co_doc/pull_request_1.png)
