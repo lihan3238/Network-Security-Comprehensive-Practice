@@ -14,34 +14,34 @@
 
 | 成员 | 角色 | 任务 | 记录 |
 | :---: | :---: | :---: | ----- |
-| lihan3238 | 红队 | 漏洞存在性验证、漏洞利用 | [lihan3238 个人开发日志](0_lihan3238/个人开发日志.md) |
-| DaleChu | 蓝队-威胁监测 | 持续监测漏洞利用、威胁识别与报告 | [DaleChu 个人开发日志](1_DaleChu/个人开发日志.md) |
-| Dracuspicy | 蓝队-威胁处置 | 缓解漏洞利用 | [Dracuspicy 个人实验日志](2_dracuspicy/个人实验日志.md) |
-| doubleJ | 蓝队-威胁处置 | 漏洞修复（源代码级别、二进制级别）| [doubleJ 个人实验日志](3_DoubleJ/个人实验日志.md) |
+| lihan3238 Dracuspicy doubleJ DaleChu | 红队 | 漏洞存在性验证、漏洞利用 | [lihan3238 个人开发日志](0_lihan3238/个人开发日志.md) |
+| DaleChu lihan3238 | 蓝队-威胁监测 | 持续监测漏洞利用、威胁识别与报告 | [DaleChu 个人开发日志](1_DaleChu/个人开发日志.md) |
+| Dracuspicy lihan3238 | 蓝队-威胁处置 | 缓解漏洞利用 | [Dracuspicy 个人实验日志](2_dracuspicy/个人实验日志.md) |
+| doubleJ  Dracuspicy | 蓝队-威胁处置 | 漏洞修复（源代码级别、二进制级别）| [doubleJ 个人实验日志](3_DoubleJ/个人实验日志.md) |
 
 ### 实践要求
 
 #### 知识点与技能点
 
-- 虚拟机平台的安装和基本使用
-- Kali Linux 系统的使用
-- Linux 发行版里的 Docker 容器的安装和基本使用
-- 通过 Dockerfile 构建靶标镜像
-- 通过 Docker Compose 部署靶标环境
-- 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的漏洞复现
-- 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的靶场搭建
-- 外网渗透测试：信息收集、端口扫描、服务识别、漏洞扫描、漏洞存在性验证、漏洞利用
-- Metasploit 及其他开源自动化攻击框架的使用
-- 内网渗透测试：信息收集、端口扫描、服务识别、网络拓扑发现、漏洞扫描、漏洞存在性验证、漏洞利用
-- 使用 Git 进行团队协作
-- 搜索引擎的使用
-- AI 助手如 GitHub Copilot, ChatGPT 等的使用
-- 自动化攻击程序的编写
-- 入侵检测系统的安装与使用
-- 入侵取证
-- 漏洞利用缓解
-- 漏洞修复
-- 规范的技术文档撰写能力
+- [x] 虚拟机平台的安装和基本使用
+- [x] Kali Linux 系统的使用
+- [x] Linux 发行版里的 Docker 容器的安装和基本使用
+- [x] 通过 Dockerfile 构建靶标镜像
+- [x] 通过 Docker Compose 部署靶标环境
+- [x] 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的漏洞复现
+- [x] 基于 [Vulfocus](https://github.com/c4pr1c3/ctf-games/tree/master/fofapro/vulfocus) 的靶场搭建
+- [x] 外网渗透测试：信息收集、端口扫描、服务识别、漏洞扫描、漏洞存在性验证、漏洞利用
+- [x] Metasploit 及其他开源自动化攻击框架的使用
+- [x] 内网渗透测试：信息收集、端口扫描、服务识别、网络拓扑发现、漏洞扫描、漏洞存在性验证、漏洞利用
+- [x] 使用 Git 进行团队协作
+- [x] 搜索引擎的使用
+- [x] AI 助手如 GitHub Copilot, ChatGPT 等的使用
+- [x] 自动化攻击程序的编写
+- [x] 入侵检测系统的安装与使用
+- [x] 入侵取证
+- [x] 漏洞利用缓解
+- [x] 漏洞修复
+- [x] 规范的技术文档撰写能力
 
 #### 实践评价标准
 
