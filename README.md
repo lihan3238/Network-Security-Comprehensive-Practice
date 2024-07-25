@@ -14,10 +14,10 @@
 
 | 成员 | 角色 | 任务 | 记录 |
 | :---: | :---: | :---: | ----- |
-| lihan3238 Dracuspicy doubleJ DaleChu | 红队 | 漏洞存在性验证、漏洞利用 | [lihan3238 个人开发日志](0_lihan3238/个人开发日志.md) |
-| DaleChu lihan3238 | 蓝队-威胁监测 | 持续监测漏洞利用、威胁识别与报告 | [DaleChu 个人开发日志](1_DaleChu/个人开发日志.md) |
-| Dracuspicy lihan3238 | 蓝队-威胁处置 | 缓解漏洞利用 | [Dracuspicy 个人实验日志](2_dracuspicy/个人实验日志.md) |
-| doubleJ  Dracuspicy | 蓝队-威胁处置 | 漏洞修复（源代码级别、二进制级别）| [doubleJ 个人实验日志](3_DoubleJ/个人实验日志.md) |
+| lihan3238、Dracuspicy、doubleJ、DaleChu | 红队 | 漏洞存在性验证、漏洞利用 | [lihan3238 个人开发日志](0_lihan3238/个人开发日志.md) |
+| DaleChu、lihan3238 | 蓝队-威胁监测 | 持续监测漏洞利用、威胁识别与报告 | [DaleChu 个人实验日志](1_DaleChu/个人实验日志.md) |
+| Dracuspicy、lihan3238 | 蓝队-威胁处置 | 缓解漏洞利用 | [Dracuspicy 个人实验日志](2_dracuspicy/个人实验日志.md) |
+| doubleJ、Dracuspicy | 蓝队-威胁处置 | 漏洞修复（源代码级别、二进制级别）| [doubleJ 个人实验日志](3_DoubleJ/个人实验日志.md) |
 
 ### 实践要求
 
@@ -85,7 +85,6 @@
 │   └── README.md
 ├── img  # 存放图片
 ├── docs  # 存放文档
-│   ├── 网络安全综合实践小组报告.pptx  
 │   ├── 网络安全综合实践小组报告.md  
 │   └── GitHub 小组合作说明文档.md  
 ├── code  # 存放代码
